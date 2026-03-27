@@ -15,4 +15,4 @@ Modules:
 """
 
 __version__ = "1.0.0"
-__author__ = "Authors"
+__author__ = "Mahnoor Tajammal & Danish Ilyas"
