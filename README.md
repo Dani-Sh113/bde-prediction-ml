@@ -320,23 +320,7 @@ If you use this project in research, please cite:
 
 MIT License - see LICENSE file for details
 
-## Support & Contributing
 
-For issues, questions, or contributions:
-1. Open an issue on GitHub
-2. Check existing documentation in `data/README.md` and `models/README.md`
-3. Review commented code in `src/` modules
-
-## Future Improvements
-
-- [ ] Ensemble methods combining multiple models
-- [ ] Hyperparameter optimization/tuning
-- [ ] Uncertainty quantification in predictions
-- [ ] GUI for easy prediction interface
-- [ ] Molecular structure visualization
-- [ ] Model explanation API
-
----
 
 **Last Updated:** 2026
 **Status:** ✅ Production Ready
