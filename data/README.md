@@ -223,9 +223,9 @@ Example row:
 ## Data Versioning
 
 - **Version:** 1.0
-- **Date:** 2024
-- **Source:** [Original publication/reference]
-- **License:** [Data license]
+- **Date:** 2026
+- **Source:** https://github.com/Dani-Sh113/bde-prediction-ml
+- **License:** MIT License
 
 ## Known Limitations
 
@@ -242,5 +242,5 @@ Example row:
 
 ---
 
-**Last Updated:** 2024
-**Maintained by:** [Author/Organization]
+**Last Updated:** 2026
+**Maintained by:** Danish Ilyas
