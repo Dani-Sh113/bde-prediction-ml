@@ -303,19 +303,18 @@ results/
 ## Publication & Citation
 
 If you use this project in research, please cite:
-
 ```bibtex
-@software{bde_prediction_ml_2024,
+@software{bde_prediction_ml_2026,
   title={BDE Prediction ML: Machine Learning for C-X Bond Dissociation Energy Prediction},
-  author={Authors},
-  year={2024},
-  url={https://github.com/Dani-Sh113/bde-prediction-ml}
+  author={Danish Ilyas and Mahnoor Tajammal},
+  year={2026},
+  url={[https://github.com/Dani-Sh113/bde-prediction-ml](https://github.com/Dani-Sh113/bde-prediction-ml)}
 }
 ```
 
 ## Authors
 
-- Original authors of the BDE prediction study
+- Mahnoor Tajammal & Danish Ilyas
 
 ## License
 
@@ -339,5 +338,5 @@ For issues, questions, or contributions:
 
 ---
 
-**Last Updated:** 2024
+**Last Updated:** 2026
 **Status:** ✅ Production Ready
