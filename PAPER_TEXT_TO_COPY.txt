@@ -1,0 +1,103 @@
+═══════════════════════════════════════════════════════════════════════════════
+
+COPY THIS TEXT FOR YOUR PAPER - Data Availability Section
+
+═══════════════════════════════════════════════════════════════════════════════
+
+
+DATA AVAILABILITY
+
+We have deposited all code, data, and trained models in a public GitHub repository
+(https://github.com/YOUR_USERNAME/bde-prediction-ml), with a Zenodo DOI for
+permanent archiving. The repository includes: (1) a data preparation script
+(src/data_loader.py), (2) a feature engineering and correlation analysis script
+(src/correlation_analysis.py), (3) a model training and selection script using
+TPOT for automated machine learning (src/model_training.py), (4) a SHAP-based
+feature importance and explainability analysis script (src/shap_analysis.py), (5)
+the final trained LightGBM model as a .pkl file (models/tpot_best_pipeline.pkl),
+and (6) the external validation dataset (data/processed/unseen_data.csv). A
+comprehensive README file and accompanying documentation describe each file and
+provide step-by-step instructions for reproducing all results. The repository link
+and Zenodo DOI have been added below. No proprietary software or data is required,
+and all code is version-controlled and reproducible with fixed random seeds.
+
+GitHub Repository: https://github.com/YOUR_USERNAME/bde-prediction-ml
+Zenodo DOI: [pending assignment upon publication]
+
+
+═══════════════════════════════════════════════════════════════════════════════
+
+
+ALTERNATIVE SHORTER VERSION (if journal space is limited):
+
+All code, data, and trained models have been deposited in a public GitHub
+repository (https://github.com/YOUR_USERNAME/bde-prediction-ml) with permanent
+archiving on Zenodo. The repository includes data preparation, feature engineering,
+model training, SHAP analysis scripts, the final trained model (.pkl file), and
+external validation dataset. Comprehensive documentation provides instructions for
+reproducing all results. No proprietary software is required.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+
+
+RESPONSE TO REVIEWER COMMENT 46 (for Rebuttal Letter)
+
+The authors have addressed all feedback in Reviewer Comment 46:
+
+1. Code Submission: All code has been submitted to a public GitHub repository
+   at https://github.com/YOUR_USERNAME/bde-prediction-ml.
+
+2. Notebook Reorganization: The original monolithic Jupyter notebook has been
+   reorganized into seven focused Python modules, each with a single responsibility:
+   - src/config.py (configuration management)
+   - src/data_loader.py (data loading and preprocessing)
+   - src/correlation_analysis.py (feature correlation analysis)
+   - src/model_training.py (TPOT-based model training)
+   - src/shap_analysis.py (SHAP feature importance analysis)
+   - src/validation.py (external validation)
+   - src/utils.py (shared utility functions)
+
+   Each module is well-documented, independently executable, and can be
+   integrated into larger workflows.
+
+3. Trained Models Provided: The final trained model has been saved as a
+   serialized scikit-learn Pipeline (models/tpot_best_pipeline.pkl) using joblib.
+   This eliminates the computational burden of retraining (2-4 hours) and ensures
+   reproducible results for all users.
+
+All files are publicly available, version-controlled, and include comprehensive
+documentation for reproducibility and extension by the scientific community.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+
+
+SUGGESTED JOURNAL ADDITION (for Methods section):
+
+All analyses were performed using fully reproducible, open-source Python scripts.
+The complete analysis pipeline consists of four phases: (1) feature correlation
+analysis to identify and remove redundant descriptors, (2) automated model training
+using TPOT to efficiently search the machine learning model space, (3) SHAP-based
+feature importance analysis to provide model explainability, and (4) external
+validation on a withheld dataset to assess generalization. All code, datasets, and
+trained models are publicly available at https://github.com/YOUR_USERNAME/bde-prediction-ml.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+
+
+CITATION FORMAT (if applicable):
+
+@software{bde_prediction_2024,
+  title={BDE Prediction ML: Automated Machine Learning for C-X Bond Dissociation Energy Prediction},
+  author={First Author and Co-Authors},
+  year={2024},
+  url={https://github.com/YOUR_USERNAME/bde-prediction-ml},
+  doi={[Zenodo DOI - to be assigned upon publication]},
+  note={Published in [Journal Name]}
+}
+
+
+═══════════════════════════════════════════════════════════════════════════════
+
