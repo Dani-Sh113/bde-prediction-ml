@@ -4,7 +4,6 @@
 
 **Public Repository URL:** https://github.com/Dani-Sh113/bde-prediction-ml
 
-**Zenodo DOI:** [To be assigned upon publication]
 
 The complete code, data, and trained models have been deposited in a publicly accessible GitHub repository.
 
