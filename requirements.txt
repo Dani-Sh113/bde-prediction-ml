@@ -1,0 +1,27 @@
+# BDE Prediction ML - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Data Processing & Analysis
+pandas>=1.3.0
+numpy>=1.21.0
+
+# Machine Learning & Model Selection
+scikit-learn>=1.0.0
+tpot>=0.12.0
+lightgbm>=3.3.0
+
+# Feature Importance & Explainability
+shap>=0.40.0
+
+# Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Model Serialization
+joblib>=1.0.0
+
+# Statistics & Scientific Computing
+scipy>=1.7.0
+
+# Chemistry (optional, for descriptor calculation)
+# rdkit>=2021.09.4
