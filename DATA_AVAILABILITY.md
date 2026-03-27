@@ -4,7 +4,6 @@
 
 **Public Repository URL:** https://github.com/Dani-Sh113/bde-prediction-ml
 
-**Zenodo DOI:** [To be assigned upon publication]
 
 The complete code, data, and trained models have been deposited in a publicly accessible GitHub repository.
 
@@ -287,14 +286,13 @@ If you use this code or data, please cite:
 ```bibtex
 @software{bde_prediction_2024,
   title={BDE Prediction ML: Machine Learning for C-X Bond Dissociation Energy},
-  author={Authors},
-  year={2024},
+  author={Mahnoor Tajammal, Danish Ilyas},
+  year={2026},
   url={https://github.com/Dani-Sh113/bde-prediction-ml},
-  doi={[Zenodo DOI]}
 }
 ```
 
 ---
 
-**Last Updated:** 2024-03-27
+**Last Updated:** 2026-03-27
 **Status:** Ready for peer review and publication
