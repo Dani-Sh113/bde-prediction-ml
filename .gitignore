@@ -54,6 +54,16 @@ ipython_config.py
 *.pickle
 *.joblib
 
+# ...but the published trained models MUST be tracked. The reviewer asked for
+# them explicitly, and the rules above were silently excluding them.
+!models/*.pkl
+!models/*.joblib
+
+# Manuscript drafts — must never be published to a public repo
+*.docx
+*.doc
+~$*
+
 # Large files
 *.zip
 *.tar.gz

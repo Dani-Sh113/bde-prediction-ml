@@ -1,0 +1,20 @@
+# Normalize line endings so the repo stays clean across Windows and Linux.
+# Text files are stored with LF in the repository and checked out natively.
+* text=auto
+
+# Explicit types
+*.py    text diff=python
+*.md    text
+*.txt   text
+*.csv   text
+LICENSE text
+
+# Binary — never touch these
+*.pkl      binary
+*.joblib   binary
+*.pickle   binary
+*.docx     binary
+*.xlsx     binary
+*.png      binary
+*.jpg      binary
+*.pdf      binary
